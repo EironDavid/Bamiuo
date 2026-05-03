@@ -1,9 +1,0 @@
-{
-  "name": "for-you",
-  "private": true,
-  "version": "1.0.0",
-  "description": "Static site — deploy root to Vercel (no build step).",
-  "scripts": {
-    "preview": "npx --yes serve@14 . -p 3000"
-  }
-}
