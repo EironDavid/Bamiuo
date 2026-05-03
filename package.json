@@ -1,0 +1,10 @@
+{
+  "name": "for-you",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Static site — Vercel serves public/ as output.",
+  "scripts": {
+    "build": "node -e \"require('fs').accessSync('public/index.html'); console.log('Build OK: public/');\"",
+    "preview": "npx --yes serve@14 public -p 3000"
+  }
+}
